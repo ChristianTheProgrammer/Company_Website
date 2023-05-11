@@ -640,7 +640,7 @@ body::-webkit-scrollbar-thumb{
 	min-height: 100vh;
 	clear: both;
 	float: left;
-	background-color: #EFFBF8;
+	background-color: #E3F2FD;
 }
 .elisc_tm_home .details{
 	width: 100%;
@@ -667,10 +667,11 @@ body::-webkit-scrollbar-thumb{
 	line-height: 72px;
 }
 .blueColor{
-	color: var(--blue-color);
+	color: #DB5461;
 }
 .yellowColor{
-	color: var(--yellow-color);
+	color: #ff5252;
+	
 }
 .elisc_tm_home .subtitle{
 	width: 100%;
@@ -743,7 +744,7 @@ body::-webkit-scrollbar-thumb{
 	position: absolute;
 	content: "";
 	width: 4px;
-	background-color: var(--yellow-color);
+	background-color: #8AA29E;
 	top: 0px;
 	bottom: 0px;
 }
@@ -906,13 +907,13 @@ body::-webkit-scrollbar-thumb{
 	transform: scale3d(3.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,100%,0);
 }
 .elisc_tm_counter ul li:nth-child(1) .list_inner{
-	background-color: #D3F4EC;
+	background-color: #dff3ff;
 }
 .elisc_tm_counter ul li:nth-child(2) .list_inner{
-	background-color: #FCE8D4;
+	background-color: #b9e0fb;
 }
 .elisc_tm_counter ul li:nth-child(3) .list_inner{
-	background-color: #E3F9E0;
+	background-color: #DB5461;
 }
 .elisc_tm_counter h3{
 	font-size: 40px;
@@ -1028,6 +1029,7 @@ body::-webkit-scrollbar-thumb{
 	width: 100%;
 	float: left;
 	padding-top: 110px;
+	background-color: #E3F2FD;
 }
 .elisc_tm_services .popup_image{
 	display: none;
