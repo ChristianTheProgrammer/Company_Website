@@ -503,13 +503,14 @@ body::-webkit-scrollbar-thumb{
 }
 .elisc_tm_sidebar .author .image{
 	position: relative;
-	width: 118px;
+	width: 180px;
 	display: inline-block;
 }
 .elisc_tm_sidebar .author .image img{
 	position: relative;
 	opacity: 0;
 	min-width: 100%;
+	height: 170px;
 }
 .elisc_tm_sidebar .author .main{
 	position: absolute;
@@ -775,7 +776,6 @@ body::-webkit-scrollbar-thumb{
 	padding-left: 50px;
 }
 .elisc_tm_home .details .right img{
-	
 }
 
 /*---------------------------------------------------*/
@@ -1086,15 +1086,12 @@ body::-webkit-scrollbar-thumb{
 .service_list ul li{
 	margin: 0px 0px 30px 0px;
 	padding-left: 30px;
-	width: 33.3333%;
+	width: 50%;
 	float: left;
 }
 .service_list ul li .list_inner{
-	width: 100%;
-	height: 100%;
-	clear: both;
-	float: left;
-	position: relative;
+	display: flex;
+	justify-content: center;
 	border: 1px solid rgba(30,30,30,.2);
 	padding: 32px 40px 55px 40px;
 	border-radius: 4px;
@@ -1111,8 +1108,6 @@ body::-webkit-scrollbar-thumb{
 .service_list .details{
 	width: 100%;
 	float: left;
-	position: relative;
-	z-index: 1;
 }
 .service_list .title{
 	width: 100%;
@@ -2429,7 +2424,7 @@ body::-webkit-scrollbar-thumb{
 	.elisc_tm_sidebar{width: 300px;}
 	.elisc_tm_mainpart{padding-left: 300px;}
 	.elisc_tm_sidebar .author{padding-top: 30px;}
-	.elisc_tm_sidebar .author .image{width: 77px;}
+	.elisc_tm_sidebar .author .image{width: 160px;}
 	.elisc_tm_sidebar .name .back{font-size: 18px;}
 	.elisc_tm_sidebar .name span{font-size: 50px;}
 	.elisc_tm_sidebar .menu ul li{margin-bottom: 9px;}
