@@ -745,7 +745,7 @@ body::-webkit-scrollbar-thumb{
 	position: absolute;
 	content: "";
 	width: 4px;
-	background-color: #8AA29E;
+	background-color: #130F49;
 	top: 0px;
 	bottom: 0px;
 }
